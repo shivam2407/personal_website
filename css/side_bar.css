@@ -54,3 +54,7 @@
 .name{
     font-size: 80px;
 }
+
+.card-image{
+    height: 30vh;
+}

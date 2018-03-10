@@ -1,128 +1,235 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <title>Shivam Rawat</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, intial-scale=1">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-        <link rel="stylesheet" href="./css/side_bar.css">
-        <link rel="stylesheet" href="./css/timeline.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    </head>
-    <body>
-        <div id="wrapper">
+<head>
+    <title>Shivam Rawat</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, intial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/side_bar.css">
+    <link rel="stylesheet" href="./css/timeline.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</head>
 
-            <!-- side bar -->
-            <div id="sidebar-wrapper">
-                <ul class="sidebar-nav">
-                    <li><img class="img-fluid img-profile rounded-circle profile" z-index="2" width="135px" height="135px" src="img/profile_pic.jpg" alt="no umage"></li>
-                    <li><a href="#">Info</a></li>
-                    <li><a href="#">Education</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Timeline</a></li>
-                </ul>
+<body>
+    <div id="wrapper">
 
-            </div>
+        <!-- side bar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li>
+                    <img class="img-fluid img-profile rounded-circle profile" z-index="2" width="135px" height="135px" src="img/profile_pic.jpg"
+                        alt="no umage">
+                </li>
+                <li>
+                    <a href="#">Info</a>
+                </li>
+                <li>
+                    <a href="#">Education</a>
+                </li>
+                <li>
+                    <a href="#projects">Projects</a>
+                </li>
+                <li>
+                    <a href="#">Timeline</a>
+                </li>
+            </ul>
 
-            <!-- main content -->
-            <div id="main-div">
-                <div class="container-fluid">
-                        <section class="info" id="about">
-                            <div class="col-lg-12">
-                                <h1 class="mb-0 name">SHIVAM
-                                    <span class="text-primary">RAWAT</span>
-                                </h1>
-                                <div>Apartment 18, 143 Park Drive · Boston, MA 02215 · (857) 272-6470 ·
-                                    <a href="mailto:rawat.s@husky.neu.edu">rawat.s@husky.neu.edu</a>
-                                </div>
-                                <ul class="list-inline list-social-icons mb-0 mt-2">
-                                    <li class="list-inline-item">
-                                        <a href="#">
+        </div>
+
+        <!-- main content -->
+        <div id="main-div">
+            <div class="container-fluid">
+                <div class="row info">
+                    <section id="about">
+                        <div class="col-lg-12">
+                            <h1 class="mb-0 name">SHIVAM
+                                <span class="text-primary">RAWAT</span>
+                            </h1>
+                            <div>Apartment 18, 143 Park Drive · Boston, MA 02215 · (857) 272-6470 ·
+                                <a href="mailto:rawat.s@husky.neu.edu">rawat.s@husky.neu.edu</a>
+                            </div>
+                            <ul class="list-inline list-social-icons mb-0 mt-2">
+                                <li class="list-inline-item">
+                                    <a href="#">
                                         <span class="fa-stack fa-lg">
                                             <i class="fa fa-circle fa-stack-2x"></i>
                                             <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
                                         </span>
-                                        </a>
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <a href="#">
-                                            <span class="fa-stack fa-lg">
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="#">
+                                        <span class="fa-stack fa-lg">
                                             <i class="fa fa-circle fa-stack-2x"></i>
                                             <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <a href="https://www.linkedin.com/in/shivamrawat24" target="_blank">
-                                            <span class="fa-stack fa-lg">
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://www.linkedin.com/in/shivamrawat24" target="_blank">
+                                        <span class="fa-stack fa-lg">
                                             <i class="fa fa-circle fa-stack-2x"></i>
                                             <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <a href="https://github.com/shivam2407" target="_blank">
-                                            <span class="fa-stack fa-lg">
+                                        </span>
+                                    </a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https://github.com/shivam2407" target="_blank">
+                                        <span class="fa-stack fa-lg">
                                             <i class="fa fa-circle fa-stack-2x"></i>
                                             <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                                            </span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </section>
-                        <section class="info" id="timeline">
+                                        </span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <hr>
+                        <section id="timeline">
                             <h1>TimeLine</h1>
                             <ul class="timeline">
-                                    <li>
-                                        <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
-                                        <div class="timeline-panel">
+                                <li>
+                                    <div class="timeline-badge">
+                                        <i class="glyphicon glyphicon-check"></i>
+                                    </div>
+                                    <div class="timeline-panel">
                                         <div class="timeline-heading">
-                                          <h4 class="timeline-title">Northeastern University</h4>
-                                          <h6>Master of Science in Computer and Information Science</h6>
-                                          <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>September 2017 - Present</small></p>
-                                        </div>
-                                      </div>
-                                    </li>
-                                    <li class="timeline-inverted">
-                                    <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
-                                        <div class="timeline-panel">
-                                        <div class="timeline-heading">
-                                          <h4 class="timeline-title">Samsung Research Institute</h4>
-                                          <h6>Software Engineering Intern</h6>
-                                          <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>January 2017 - May 2017</small></p>
+                                            <h4 class="timeline-title">Northeastern University</h4>
+                                            <h6>Master of Science in Computer and Information Science</h6>
+                                            <p>
+                                                <small class="text-muted">
+                                                    <i class="glyphicon glyphicon-time"></i>September 2017 - Present</small>
+                                            </p>
                                         </div>
                                     </div>
-                                    </li>
-                                    <li>
-                                        <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
-                                        <div class="timeline-panel">
+                                </li>
+                                <li class="timeline-inverted">
+                                    <div class="timeline-badge">
+                                        <i class="glyphicon glyphicon-check"></i>
+                                    </div>
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <h4 class="timeline-title">Samsung Research Institute</h4>
+                                            <h6>Software Engineering Intern</h6>
+                                            <p>
+                                                <small class="text-muted">
+                                                    <i class="glyphicon glyphicon-time"></i>January 2017 - May 2017</small>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="timeline-badge">
+                                        <i class="glyphicon glyphicon-check"></i>
+                                    </div>
+                                    <div class="timeline-panel">
                                         <div class="timeline-heading">
                                             <h4 class="timeline-title">Arista Technologies</h4>
                                             <h6>Summer Intern</h6>
-                                            <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>May 2016 - June 2016</small></p>
+                                            <p>
+                                                <small class="text-muted">
+                                                    <i class="glyphicon glyphicon-time"></i>May 2016 - June 2016</small>
+                                            </p>
                                         </div>
+                                    </div>
+                                </li>
+                                <li class="timeline-inverted">
+                                    <div class="timeline-badge">
+                                        <i class="glyphicon glyphicon-check"></i>
+                                    </div>
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <h4 class="timeline-title">Nirma University</h4>
+                                            <h6>Bachelor of Technolohy in Computer Engineering</h6>
+                                            <p>
+                                                <small class="text-muted">
+                                                    <i class="glyphicon glyphicon-time"></i>August 2013 - May 2017</small>
+                                            </p>
                                         </div>
-                                    </li>
-                                    <li class="timeline-inverted">
-                                        <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
-                                            <div class="timeline-panel">
-                                            <div class="timeline-heading">
-                                                <h4 class="timeline-title">Nirma University</h4>
-                                                <h6>Bachelor of Technolohy in Computer Engineering</h6>
-                                                <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i>August 2013 - May 2017</small></p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </section>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <section id="projects">
+                            <hr>
+                            <div class="container">
+                                <div class="card-deck">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <img src="./img/alarm-clock.png" class="img-fluid" alt="Samsung logo" />
+                                            <h3 class="card-title mt-3 text-primary">Smart Alarm</h3>
+                                            <h5 class="card-subtitle">Samsung Research Institute</h5>
+                                            <p class="text-muted">Welcome back</p>
+                                            <a href="#" target="_blank" class="btn btn-primary" role="button">Link</a>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <img src="./img/secure.png" class="img-fluid" alt="Samsung logo" />
+                                            <h3 class="card-title mt-3 text-primary">Secure Chat App</h3>
+                                            <h5 class="card-subtitle">Northeastern University</h5>
+                                            <p class="text-muted"></p>
+                                            <a href="https://github.com/shivam2407/SecureChat" target="_blank" class="btn btn-primary" role="button">Link</a>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <img src="./img/foozam.png" class="img-fluid" alt="Samsung logo" />
+                                            <h4 class="card-title mt-3 text-primary">Foozam</h4>
+                                            <h5 class="card-subtitle">HackUmass 2017</h5>
+                                            <p class="text-muted"></p>
+                                            <a href="https://github.com/shivam2407/HackUmass" target="_blank" class="btn btn-primary" role="button">Link</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card-deck">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <img src="./img/memory.png" class="img-fluid" alt="Memory allocation" />
+                                                <h3 class="card-title mt-3 text-primary">Memorry allocation simulation</h3>
+                                                <h5 class="card-subtitle">Samsung Research Institute</h5>
+                                                <p class="text-muted">Welcome back</p>
+                                                <a href="https://github.com/shivam2407/Memorry-allocation-simulation" target="_blank" class="btn btn-primary" role="button">Link</a>
                                             </div>
                                         </div>
-                                    </li>
-                                  </ul>
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <img src="./img/snapify.png" class="img-fluid mt-4 mb-3" alt="Snapify" />
+                                                <h3 class="card-title mt-3 text-primary">Snapify</h3>
+                                                <h5 class="card-subtitle">Boston Hacks 2017</h5>
+                                                <p class="text-muted"></p>
+                                                <a href="https://devpost.com/software/snapify" target="_blank" class="btn btn-primary" role="button">Link</a>
+                                            </div>
+                                        </div>
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <img src="./img/download.png" class="img-fluid ml-4 mt-4 mb-4" alt="Calender" />
+                                                <h4 class="card-title mt-3 text-primary">Last Minute</h4>
+                                                <h5 class="card-subtitle">HackHolyoke 2017</h5>
+                                                <p class="text-muted"></p>
+                                                <a href="https://devpost.com/software/last-minute" target="_blank" class="btn btn-primary" role="button">Link</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </div>
                         </section>
+                    </div>
                 </div>
-
             </div>
 
         </div>
-    </body>
+
+    </div>
+</body>
+
 </html>
