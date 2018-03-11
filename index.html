@@ -24,16 +24,13 @@
                         alt="no umage">
                 </li>
                 <li>
-                    <a href="#">Info</a>
+                    <a href="#about">Info</a>
                 </li>
                 <li>
-                    <a href="#">Education</a>
+                    <a href="#timeline">Timeline</a>
                 </li>
                 <li>
                     <a href="#projects">Projects</a>
-                </li>
-                <li>
-                    <a href="#">Timeline</a>
                 </li>
             </ul>
 
@@ -42,8 +39,8 @@
         <!-- main content -->
         <div id="main-div">
             <div class="container-fluid">
-                <div class="row info">
-                    <section id="about">
+                <div class="row info" id="about">
+                    <section>
                         <div class="col-lg-12">
                             <h1 class="mb-0 name">SHIVAM
                                 <span class="text-primary">RAWAT</span>
@@ -53,18 +50,10 @@
                             </div>
                             <ul class="list-inline list-social-icons mb-0 mt-2">
                                 <li class="list-inline-item">
-                                    <a href="#">
+                                    <a href="https://drive.google.com/open?id=13Js5sXrQlTCC8McLNu8PRWVetr9b1dNX" target="_blank">
                                         <span class="fa-stack fa-lg">
                                             <i class="fa fa-circle fa-stack-2x"></i>
-                                            <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                                        </span>
-                                    </a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a href="#">
-                                        <span class="fa-stack fa-lg">
-                                            <i class="fa fa-circle fa-stack-2x"></i>
-                                            <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                            <i class="fa fa-file fa-stack-1x fa-inverse"></i>
                                         </span>
                                     </a>
                                 </li>
@@ -92,7 +81,8 @@
                     <div class="col-lg-12">
                         <hr>
                         <section id="timeline">
-                            <h1>TimeLine</h1>
+                            <h1 class="text-primary" align="center">TimeLine</h1>
+                            <br>
                             <ul class="timeline">
                                 <li>
                                     <div class="timeline-badge">
@@ -116,7 +106,7 @@
                                     <div class="timeline-panel">
                                         <div class="timeline-heading">
                                             <h4 class="timeline-title">Samsung Research Institute</h4>
-                                            <h6>Software Engineering Intern</h6>
+                                            <h6>Software Engineer Intern</h6>
                                             <p>
                                                 <small class="text-muted">
                                                     <i class="glyphicon glyphicon-time"></i>January 2017 - May 2017</small>
@@ -146,7 +136,7 @@
                                     <div class="timeline-panel">
                                         <div class="timeline-heading">
                                             <h4 class="timeline-title">Nirma University</h4>
-                                            <h6>Bachelor of Technolohy in Computer Engineering</h6>
+                                            <h6>Bachelor of Technology in Computer Engineering</h6>
                                             <p>
                                                 <small class="text-muted">
                                                     <i class="glyphicon glyphicon-time"></i>August 2013 - May 2017</small>
@@ -162,6 +152,8 @@
                     <div class="col-lg-12">
                         <section id="projects">
                             <hr>
+                            <h1 class="text-primary" align="center">Projects</h1>
+                            <br>
                             <div class="container">
                                 <div class="card-deck">
                                     <div class="card">
@@ -169,8 +161,10 @@
                                             <img src="./img/alarm-clock.png" class="img-fluid" alt="Samsung logo" />
                                             <h3 class="card-title mt-3 text-primary">Smart Alarm</h3>
                                             <h5 class="card-subtitle">Samsung Research Institute</h5>
-                                            <p class="text-muted">Welcome back</p>
-                                            <a href="#" target="_blank" class="btn btn-primary" role="button">Link</a>
+                                            <p class="text-muted mt-1">
+                                                A Smart Alarm which helps user decide when to wake based on various factors like traffic, weather and various IOT devices.
+                                            </p>
+                                            <a href="#" target="_blank" class="btn btn-primary mt-4" role="button">Link</a>
                                         </div>
                                     </div>
                                     <div class="card">
@@ -178,7 +172,10 @@
                                             <img src="./img/secure.png" class="img-fluid" alt="Samsung logo" />
                                             <h3 class="card-title mt-3 text-primary">Secure Chat App</h3>
                                             <h5 class="card-subtitle">Northeastern University</h5>
-                                            <p class="text-muted"></p>
+                                            <p class="text-muted mt-1">
+                                                A Python based chat application which provides Confidentiality, Integrity, and Authenticity using custom designed protocols.
+                                                The protocls are inspired by TLS and Kerberos.
+                                            </p>
                                             <a href="https://github.com/shivam2407/SecureChat" target="_blank" class="btn btn-primary" role="button">Link</a>
                                         </div>
                                     </div>
@@ -187,40 +184,52 @@
                                             <img src="./img/foozam.png" class="img-fluid" alt="Samsung logo" />
                                             <h4 class="card-title mt-3 text-primary">Foozam</h4>
                                             <h5 class="card-subtitle">HackUmass 2017</h5>
-                                            <p class="text-muted"></p>
+                                            <p class="text-muted mt-1">
+                                                A Restful web-application using Flask and Bootstrap where user uploads image of the meal and instantly gets to know the nutrition
+                                                facts (e.g:iron, calcium and Calories) of meal.
+                                            </p>
                                             <a href="https://github.com/shivam2407/HackUmass" target="_blank" class="btn btn-primary" role="button">Link</a>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="card-deck">
-                                        <div class="card">
-                                            <div class="card-body">
-                                                <img src="./img/memory.png" class="img-fluid" alt="Memory allocation" />
-                                                <h3 class="card-title mt-3 text-primary">Memorry allocation simulation</h3>
-                                                <h5 class="card-subtitle">Samsung Research Institute</h5>
-                                                <p class="text-muted">Welcome back</p>
-                                                <a href="https://github.com/shivam2407/Memorry-allocation-simulation" target="_blank" class="btn btn-primary" role="button">Link</a>
-                                            </div>
-                                        </div>
-                                        <div class="card">
-                                            <div class="card-body">
-                                                <img src="./img/snapify.png" class="img-fluid mt-4 mb-3" alt="Snapify" />
-                                                <h3 class="card-title mt-3 text-primary">Snapify</h3>
-                                                <h5 class="card-subtitle">Boston Hacks 2017</h5>
-                                                <p class="text-muted"></p>
-                                                <a href="https://devpost.com/software/snapify" target="_blank" class="btn btn-primary" role="button">Link</a>
-                                            </div>
-                                        </div>
-                                        <div class="card">
-                                            <div class="card-body">
-                                                <img src="./img/download.png" class="img-fluid ml-4 mt-4 mb-4" alt="Calender" />
-                                                <h4 class="card-title mt-3 text-primary">Last Minute</h4>
-                                                <h5 class="card-subtitle">HackHolyoke 2017</h5>
-                                                <p class="text-muted"></p>
-                                                <a href="https://devpost.com/software/last-minute" target="_blank" class="btn btn-primary" role="button">Link</a>
-                                            </div>
+                                <div class="card-deck mt-4">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <img src="./img/memory.png" class="img-fluid mb-1" alt="Memory allocation" />
+                                            <h3 class="card-title mt-3 text-primary">Memorry allocation</h3>
+                                            <h5 class="card-subtitle">Nirma University</h5>
+                                            <p class="text-muted">
+                                                It simulates four different memory allocation i.e. First Fit, Best Fit, Worst Fit and Next Fit in c language. It also suggest
+                                                the best algorithm among these 4 which are best for the given example.
+                                            </p>
+                                            <a href="https://github.com/shivam2407/Memorry-allocation-simulation" target="_blank" class="btn btn-primary" role="button">Link</a>
                                         </div>
                                     </div>
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <img src="./img/snapify.png" class="img-fluid mt-4 mb-4" alt="Snapify" />
+                                            <h3 class="card-title mt-3 text-primary">Snapify</h3>
+                                            <h5 class="card-subtitle">Boston Hacks 2017</h5>
+                                            <p class="text-muted">
+                                                Android application which categorise photo based on content and text if any. Also sends message to parents when application 
+                                                detects inappropriate content.
+                                            </p>
+                                            <a href="https://devpost.com/software/snapify" target="_blank" class="btn btn-primary mt-4" role="button">Link</a>
+                                        </div>
+                                    </div>
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <img src="./img/download.png" class="img-fluid ml-4 mt-5 mb-3" alt="Last Minute" />
+                                            <h4 class="card-title mt-3 text-primary">Last Minute</h4>
+                                            <h5 class="card-subtitle">HackHolyoke 2017</h5>
+                                            <p class="text-muted mb-4">
+                                                    Provide a constant update of your location to Alexa and records your surroundings when you click the emergency button which
+                                                    is sent to user's emergency contact.
+                                            </p>
+                                            <a href="https://devpost.com/software/last-minute" target="_blank" class="btn btn-primary mt-3" role="button">Link</a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </section>
                     </div>
@@ -230,6 +239,7 @@
         </div>
 
     </div>
+    <script src="./script/smooth_scrol.js"></script>
 </body>
 
 </html>

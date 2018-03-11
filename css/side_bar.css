@@ -38,7 +38,7 @@
 }
 
 .sidebar-nav li a:hover{
-    background: #16a085;
+    color: #328cc1;
 }
 
 .profile{
@@ -57,4 +57,10 @@
 
 .card-image{
     height: 30vh;
+}
+
+.button{
+    position: absolute;
+    left: 0;
+    bottom: 0;
 }
