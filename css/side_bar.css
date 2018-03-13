@@ -50,7 +50,11 @@
     padding-left: 5%;
     height: 100vh;
 }
-
+.skills{
+    padding-top: 20%;
+    padding-left: 5%;
+    height: 100vh;
+}
 .name{
     font-size: 80px;
 }
@@ -63,4 +67,8 @@
     position: absolute;
     left: 0;
     bottom: 0;
+}
+
+ul.skill{
+    font-size: 50px;
 }
