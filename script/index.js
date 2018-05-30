@@ -2,7 +2,6 @@
     $(main);
 
     function main() {
-        console.log(isMobile());
         var isMob = isMobile();
         if (isMob) {
             $('#sidebar-wrapper').remove();
