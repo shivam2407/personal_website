@@ -9,6 +9,7 @@
         else {
             $('#topNav').remove();
         }
+        $('[data-toggle="tooltip"]').tooltip(); 
     }
 
     function isMobile() {
