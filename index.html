@@ -1,423 +1,773 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <title>Shivam Rawat</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, intial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./css/side_bar.css">
-    <link rel="stylesheet" href="./css/timeline.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, intial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./css/side_bar.css" />
+    <link rel="stylesheet" href="./css/timeline.css" />
 
-    <link href='https://cdn.jsdelivr.net/devicons/1.8.0/css/devicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      href="https://cdn.jsdelivr.net/devicons/1.8.0/css/devicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-</head>
+  </head>
 
-<body>
+  <body>
     <div id="wrapper">
+      <!-- side bar -->
+      <div id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+          <li>
+            <img
+              class="img-fluid img-profile rounded-circle profile"
+              z-index="2"
+              width="135px"
+              height="135px"
+              src="img/profile_pic.jpg"
+              alt="no umage"
+            />
+          </li>
+          <li>
+            <a href="#about">INFO</a>
+          </li>
+          <li>
+            <a href="#timeline">TIMELINE</a>
+          </li>
+          <li>
+            <a href="#projects">PROJECTS</a>
+          </li>
+          <li>
+            <a href="#skills">SKILLS</a>
+          </li>
+        </ul>
+      </div>
 
-        <!-- side bar -->
-        <div id="sidebar-wrapper">
-            <ul class="sidebar-nav">
-                <li>
-                    <img class="img-fluid img-profile rounded-circle profile" z-index="2" width="135px" height="135px" src="img/profile_pic.jpg"
-                        alt="no umage">
-                </li>
-                <li>
-                    <a href="#about">INFO</a>
-                </li>
-                <li>
-                    <a href="#timeline">TIMELINE</a>
-                </li>
-                <li>
-                    <a href="#projects">PROJECTS</a>
-                </li>
-                <li>
-                    <a href="#skills">SKILLS</a>
-                </li>
-            </ul>
+      <!-- main content -->
+      <div id="main-div">
+        <div class="container-fluid">
+          <div class="row info" id="about">
+            <section>
+              <div class="col-lg-12">
+                <h1 class="mb-0 name">
+                  SHIVAM
+                  <span class="text-primary">RAWAT</span>
+                </h1>
+                <div>
+                  Boston, MA · (857) 272-6470 ·
+                  <a href="mailto:rawat.s@husky.neu.edu"
+                    >rawat.s@husky.neu.edu</a
+                  >
+                </div>
+                <div style="font-style: italic; margin-top: 10px;">
+                  I am working as a Software Engineer in Audible since January
+                  2020. I have acquired Full Stack development skills from my
+                  current role and 4 internships completed during my education.
+                  I am always looking for exciting opportunities to work on and
+                  network with people.
+                </div>
+                <ul class="list-inline list-social-icons mb-0 mt-2">
+                  <li class="list-inline-item">
+                    <a
+                      href="https://drive.google.com/file/d/1OD4HynjvT3cfQ_9_d7bmiYK7ZC_1_CZs/view?usp=sharing"
+                      target="_blank"
+                      data-delay='{ "hide":"1000"}'
+                      data-placement="left"
+                      data-toggle="tooltip"
+                      title="Resume"
+                    >
+                      <span class="fa-stack fa-lg">
+                        <i class="fa fa-circle fa-stack-2x"></i>
+                        <i class="fa fa-file fa-stack-1x fa-inverse"></i>
+                      </span>
+                    </a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a
+                      href="https://www.linkedin.com/in/shivamrawat24"
+                      target="_blank"
+                      data-delay='{ "hide":"1000"}'
+                      data-placement="top"
+                      data-toggle="tooltip"
+                      title="LinkedIn Profile"
+                    >
+                      <span class="fa-stack fa-lg">
+                        <i class="fa fa-circle fa-stack-2x"></i>
+                        <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                      </span>
+                    </a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a
+                      href="https://github.com/shivam2407"
+                      target="_blank"
+                      data-delay='{ "hide":"1000"}'
+                      data-placement="right"
+                      data-toggle="tooltip"
+                      title="Github Profile"
+                    >
+                      <span class="fa-stack fa-lg">
+                        <i class="fa fa-circle fa-stack-2x"></i>
+                        <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                      </span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </section>
+          </div>
+          <div class="row">
+            <div class="col-lg-12">
+              <hr />
+              <section id="timeline">
+                <h1 class="text-primary" align="center">TimeLine</h1>
+                <br />
+                <ul class="timeline">
+                  <li>
+                    <div class="timeline-badge">
+                      <i class="glyphicon glyphicon-check"></i>
+                    </div>
+                    <div class="timeline-panel">
+                      <div class="timeline-heading">
+                        <a target="_blank" href="https://www.audible.com/"
+                          ><h4 class="timeline-title">
+                            Audible, Cambridge, MA
+                          </h4></a
+                        >
+                        <h6>Software Engineer Developer</h6>
+                        <p>
+                          <small class="text-muted">
+                            <i class="glyphicon glyphicon-time"></i>January 2020
+                            - Present</small
+                          >
+                        </p>
+                        <ul>
+                          <li>
+                            Deprecated a service by transferring business logic
+                            to lambda which resulted into 50% monthly cost
+                            reduction.
+                          </li>
+                          <li>
+                            Coded Alexa skill prototype which enabled in
+                            content-search of audio books by leveraging elastic
+                            search.
+                          </li>
+                          <li>
+                            Compiled metrics from various teams to ensure our
+                            team services can handle user traffic for prime day.
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="timeline-inverted">
+                    <div class="timeline-badge">
+                      <i class="glyphicon glyphicon-check"></i>
+                    </div>
+                    <div class="timeline-panel">
+                      <div class="timeline-heading">
+                        <a target="_blank" href="https://www.northeastern.edu/"
+                          ><h4 class="timeline-title">
+                            Northeastern University, Boston, MA
+                          </h4></a
+                        >
+                        <h6>Graduate Research Assistant</h6>
+                        <p>
+                          <small class="text-muted">
+                            <i class="glyphicon glyphicon-time"></i>September
+                            2019 - December 2019</small
+                          >
+                        </p>
+                        <ul>
+                          <li>
+                            Designed an AB Testing framework architecture for a
+                            Mobile application using React Native, Firebase, and
+                            BigQuery.
+                          </li>
+                          <li>
+                            Developed a Python script which collected the
+                            results from the AB testing experiment stored in
+                            BigQuery and extracted user behavioral information
+                            from it.
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </li>
 
-        </div>
-
-        <!-- main content -->
-        <div id="main-div">
-            <div class="container-fluid">
-                <div class="row info" id="about">
-                    <section>
-                        <div class="col-lg-12">
-                            <h1 class="mb-0 name">SHIVAM
-                                <span class="text-primary">RAWAT</span>
-                            </h1>
-                            <div>1167 Bolyston Street · Boston, MA 02116 · (857) 272-6470 ·
-                                <a href="mailto:rawat.s@husky.neu.edu">rawat.s@husky.neu.edu</a>
-                            </div>
-                            <div style="font-style: italic; margin-top: 10px">
-                                I am currently pursuing Master degree at Northeastern University
-                                majoring in Computer Science and have acquired Full Stack 
-                                development skills from 4 internships completed during my
-                                education. I am Graduating in December 2019 and looking for 
-                                full-time roles staring January 2020 in Software Engineering. 
-                                I am always up for conversation if you have any exciting opportunity 
-                                for me.
-                            </div>
-                            <ul class="list-inline list-social-icons mb-0 mt-2">
-                                <li class="list-inline-item">
-                                    <a href="https://drive.google.com/file/d/1OD4HynjvT3cfQ_9_d7bmiYK7ZC_1_CZs/view?usp=sharing" target="_blank" data-delay='{ "hide":"1000"}'
-                                        data-placement="left" data-toggle="tooltip" title="Resume">
-                                        <span class="fa-stack fa-lg">
-                                            <i class="fa fa-circle fa-stack-2x"></i>
-                                            <i class="fa fa-file fa-stack-1x fa-inverse"></i>
-                                        </span>
-                                    </a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a href="https://www.linkedin.com/in/shivamrawat24" target="_blank" data-delay='{ "hide":"1000"}' data-placement="top" data-toggle="tooltip"
-                                        title="LinkedIn Profile">
-                                        <span class="fa-stack fa-lg">
-                                            <i class="fa fa-circle fa-stack-2x"></i>
-                                            <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-                                        </span>
-                                    </a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a href="https://github.com/shivam2407" target="_blank" data-delay='{ "hide":"1000"}' data-placement="right" data-toggle="tooltip"
-                                        title="Github Profile">
-                                        <span class="fa-stack fa-lg">
-                                            <i class="fa fa-circle fa-stack-2x"></i>
-                                            <i class="fa fa-github fa-stack-1x fa-inverse"></i>
-                                        </span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </section>
-                </div>
-                <div class="row">
-                    <div class="col-lg-12">
-                        <hr>
-                        <section id="timeline">
-                            <h1 class="text-primary" align="center">TimeLine</h1>
-                            <br>
-                            <ul class="timeline">
-                                    <li>
-                                        <div class="timeline-badge">
-                                            <i class="glyphicon glyphicon-check"></i>
-                                        </div>
-                                        <div class="timeline-panel">
-                                            <div class="timeline-heading">
-                                                <a target="_blank" href="https://www.sumologic.com/"><h4 class="timeline-title">Sumo Logic, Redwood City, CA</h4></a>
-                                                <h6>Frontend Engineering Intern</h6>
-                                                <p>
-                                                    <small class="text-muted">
-                                                        <i class="glyphicon glyphicon-time"></i>May 2019 - July 2019</small>
-                                                </p>
-                                                <ul>
-                                                    <li>Enabled versioning for System Design Library by configuring entire build pipeline which resulted in
-                                                        better testing workflow for Quality Assurance team.</li>
-                                                    <li>Developed components using Style Guide Driven Development with Storybook Library which eventually 
-                                                        reduced the development churn out time for multiple teams.</li>
-                                                    <li>Implemented new theme solution for the company using React, Typescript and SCSS
-                                                         which provided additional designing capability to the UI platform.</li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </li>
-                                <li class="timeline-inverted">
-                                    <div class="timeline-badge">
-                                        <i class="glyphicon glyphicon-check"></i>
-                                    </div>
-                                    <div class="timeline-panel">
-                                        <div class="timeline-heading">
-                                            <a target="_blank" href="https://www.stratifi.com/"><h4 class="timeline-title">StratiFi, San Francisco, CA</h4></a>
-                                            <h6>Software Engineering Intern</h6>
-                                            <p>
-                                                <small class="text-muted">
-                                                    <i class="glyphicon glyphicon-time"></i>September 2018 - December 2018</small>
-                                            </p>
-                                            <ul>
-                                                <li>Implemented key features for the company’s core product using React.js,
-                                                    Redux and Django.</li>
-                                                <li>Developed API Endpoints using Django and Django-Rest-Framework which
-                                                    enabled developer to fetch real- time data and implement relevant functionality
-                                                    on the front-end.</li>
-                                                <li> Integrated WordPress plugin with Php and configured Amazon S3 bucket
-                                                    to develop pages on the website.</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="timeline-badge">
-                                        <i class="glyphicon glyphicon-check"></i>
-                                    </div>
-                                    <div class="timeline-panel">
-                                        <div class="timeline-heading">
-                                            <a href="https://www.companywide.com/" target="_blank"><h4 class="timeline-title">CompanyWide</h4></a>
-                                            <h6>Software Engineering Intern</h6>
-                                            <p>
-                                                <small class="text-muted">
-                                                    <i class="glyphicon glyphicon-time"></i>May 2018 - August 2018</small>
-                                            </p>
-                                            <ul>
-                                                <li>Developed a Node application which talks with the user via SMS using
-                                                    Twilio API and enables them to apply for jobs just by sending text message;
-                                                    this resulted in 200% increase in applications in one month.</li>
-                                                <li>Created REST API for the database which provides an endpoint for the
-                                                    external application like IOS and Android to communicate with.</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="timeline-inverted">
-                                    <div class="timeline-badge">
-                                        <i class="glyphicon glyphicon-check"></i>
-                                    </div>
-                                    <div class="timeline-panel">
-                                        <div class="timeline-heading">
-                                            <a href="https://www.northeastern.edu/" target="_blank"><h4 class="timeline-title">Northeastern
-                                                    University
-                                                </h4></a>
-                                            <h6>Master of Science in Computer and Information Science</h6>
-                                            <p>
-                                                <small class="text-muted">
-                                                    <i class="glyphicon glyphicon-time"></i>September 2017 - Present</small>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="timeline-badge">
-                                        <i class="glyphicon glyphicon-check"></i>
-                                    </div>
-                                    <div class="timeline-panel">
-                                        <div class="timeline-heading">
-                                            <a href="https://research.samsung.com/sri-n" target="_blank"><h4 class="timeline-title">Samsung
-                                                    Research Institute</h4></a>
-                                            <h6>Software Engineer Intern</h6>
-                                            <p>
-                                                <small class="text-muted">
-                                                    <i class="glyphicon glyphicon-time"></i>January 2017 - May 2017</small>
-                                            </p>
-                                            <ul>
-                                                <li>Researched an idea for Alarm Application which modified alarm time based
-                                                    on dynamic factors like traffic, weather and IOT devices linked with
-                                                    it, patent pending for the same.</li>
-                                                <li>Implemented an Android Application which served as a Proof of Concept
-                                                    for the above idea; using Android Studio as I.D.E and Git as a version
-                                                    control tool.</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="timeline-inverted">
-                                    <div class="timeline-badge">
-                                        <i class="glyphicon glyphicon-check"></i>
-                                    </div>
-                                    <div class="timeline-panel">
-                                        <div class="timeline-heading">
-                                            <a href="http://www.aristatechnologies.com/" target="_blank"><h4 class="timeline-title">Arista
-                                                    Technologies
-                                                </h4></a>
-                                            <h6>Summer Intern</h6>
-                                            <p>
-                                                <small class="text-muted">
-                                                    <i class="glyphicon glyphicon-time"></i>May 2016 - June 2016</small>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="timeline-badge">
-                                        <i class="glyphicon glyphicon-check"></i>
-                                    </div>
-                                    <div class="timeline-panel">
-                                        <div class="timeline-heading">
-                                            <a href="http://www.nirmauni.ac.in/ITNU" target="_blank"> <h4 class="timeline-title">Nirma University
-                                                </h4></a>
-                                            <h6>Bachelor of Technology in Computer Engineering</h6>
-                                            <p>
-                                                <small class="text-muted">
-                                                    <i class="glyphicon glyphicon-time"></i>August 2013 - May 2017</small>
-                                            </p>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </section>
+                  <li>
+                    <div class="timeline-badge">
+                      <i class="glyphicon glyphicon-check"></i>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-12">
-                        <section id="projects">
-                            <hr>
-                            <h1 class="text-primary" align="center">Projects</h1>
-                            <br>
-                            <div class="container">
-                                <div class="card-deck">
-                                    <div class="card">
-                                        <div class="card-body">
-                                            <img src="./img/alarm-clock.png" class="img-fluid" alt="Samsung logo" />
-                                            <h3 class="card-title mt-3 text-primary">Smart Alarm</h3>
-                                            <h5 class="card-subtitle">Samsung Research Institute</h5>
-                                            <p class="text-muted mt-1">
-                                                A Smart Alarm which helps a user decide when to wake up based on various factors like traffic, weather, and various IOT devices.
-                                            </p>
-                                            <a href="https://drive.google.com/file/d/0Bw5XNyvokXnQM0VVNlRyVlp4anZrZEhQa1VkdjVkTUZXTTg0/view?usp=sharing" target="_blank"
-                                                class="btn btn-primary mt-4" role="button">Link</a>
-                                        </div>
-                                    </div>
-                                    <div class="card">
-                                        <div class="card-body">
-                                            <img src="./img/secure.png" class="img-fluid" alt="Samsung logo" />
-                                            <h3 class="card-title mt-3 text-primary">Secure Chat App</h3>
-                                            <h5 class="card-subtitle">Northeastern University</h5>
-                                            <p class="text-muted mt-1">
-                                                A Python based chat application which provides Confidentiality, Integrity, and Authenticity using custom designed protocols.
-                                                The protocols are inspired by TLS and Kerberos.
-                                            </p>
-                                            <a href="https://github.com/shivam2407/SecureChat" target="_blank" class="btn btn-primary" role="button">Link</a>
-                                        </div>
-                                    </div>
-                                    <div class="card">
-                                        <div class="card-body">
-                                            <img src="./img/foozam.png" class="img-fluid" alt="Samsung logo" />
-                                            <h4 class="card-title mt-3 text-primary">Foozam</h4>
-                                            <h5 class="card-subtitle">HackUmass 2017</h5>
-                                            <p class="text-muted mt-1">
-                                                A Restful web-application using Flask and Bootstrap where user uploads image of the meal and instantly gets to know the nutrition
-                                                facts (e.g:iron, calcium and Calories) of meal.
-                                            </p>
-                                            <a href="https://github.com/shivam2407/HackUmass" target="_blank" class="btn btn-primary" role="button">Link</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="card-deck mt-4">
-                                    <div class="card">
-                                        <div class="card-body">
-                                            <img src="./img/memory.png" class="img-fluid mb-1" alt="Memory allocation" />
-                                            <h3 class="card-title mt-3 text-primary">Memorry allocation</h3>
-                                            <h5 class="card-subtitle">Nirma University</h5>
-                                            <p class="text-muted">
-                                                It simulates four different memory allocation i.e. First Fit, Best Fit, Worst Fit and Next Fit in c language. It also suggests
-                                                the best algorithm among these 4 which are best for the given example.
-                                            </p>
-                                            <a href="https://github.com/shivam2407/Memorry-allocation-simulation" target="_blank" class="btn btn-primary" role="button">Link</a>
-                                        </div>
-                                    </div>
-                                    <div class="card">
-                                        <div class="card-body">
-                                            <img src="./img/snapify.png" class="img-fluid mt-4 mb-4" alt="Snapify" />
-                                            <h3 class="card-title mt-3 text-primary">Snapify</h3>
-                                            <h5 class="card-subtitle">Boston Hacks 2017</h5>
-                                            <p class="text-muted">
-                                                Android application which categorizes photo based on content and text if any. Also sends a message to parents when application
-                                                detects inappropriate content.
-                                            </p>
-                                            <a href="https://devpost.com/software/snapify" target="_blank" class="btn btn-primary mt-4" role="button">Link</a>
-                                        </div>
-                                    </div>
-                                    <div class="card">
-                                        <div class="card-body">
-                                            <img src="./img/download.png" class="img-fluid ml-4 mt-5 mb-3" alt="Last Minute" />
-                                            <h4 class="card-title mt-3 text-primary">Last Minute</h4>
-                                            <h5 class="card-subtitle">HackHolyoke 2017</h5>
-                                            <p class="text-muted mb-4">
-                                                Provide a constant update of your location to Alexa and records your surroundings when you click the emergency button which
-                                                is sent to user's emergency contact.
-                                            </p>
-                                            <a href="https://devpost.com/software/last-minute" target="_blank" class="btn btn-primary mt-3" role="button">Link</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
+                    <div class="timeline-panel">
+                      <div class="timeline-heading">
+                        <a target="_blank" href="https://www.sumologic.com/"
+                          ><h4 class="timeline-title">
+                            Sumo Logic, Redwood City, CA
+                          </h4></a
+                        >
+                        <h6>Frontend Engineering Intern</h6>
+                        <p>
+                          <small class="text-muted">
+                            <i class="glyphicon glyphicon-time"></i>May 2019 -
+                            July 2019</small
+                          >
+                        </p>
+                        <ul>
+                          <li>
+                            Enabled versioning for System Design Library by
+                            configuring entire build pipeline which resulted in
+                            better testing workflow for Quality Assurance team.
+                          </li>
+                          <li>
+                            Developed components using Style Guide Driven
+                            Development with Storybook Library which eventually
+                            reduced the development churn out time for multiple
+                            teams.
+                          </li>
+                          <li>
+                            Implemented new theme solution for the company using
+                            React, Typescript and SCSS which provided additional
+                            designing capability to the UI platform.
+                          </li>
+                        </ul>
+                      </div>
                     </div>
-                </div>
-                <hr>
-                <div class="row skills">
-                    <div class="col-lg-12">
-                        <section id="skills">
-                            <h1 class="text-primary">SKILLS</h1>
-                            <div class="subheading mb-3">Programming Languages &amp; Tools</div>
-                            <ul class="list-inline list-icons skill text-primary">
-                                <li class="list-inline-item">
-                                    <a data-delay='{ "hide":"1000"}' data-placement="left" data-toggle="tooltip" title="React.js and Redux">
-                                        <img class="flex" src="./img/react.svg" /></a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a data-delay='{ "hide":"1000"}' data-placement="top" data-toggle="tooltip" title="Node.js">
-                                        <i class="devicons devicons-nodejs"></i></a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a data-delay='{ "hide":"1000"}' data-placement="top" data-toggle="tooltip" title="MongoDB">
-                                        <i class="devicons devicons-mongodb"></i></a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a data-delay='{ "hide":"1000"}' data-placement="top" data-toggle="tooltip" title="HTML5">
-                                        <i class="devicons devicons-html5"></i></a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a data-delay='{ "hide":"1000"}' data-placement="top" data-toggle="tooltip" title="CSS3">
-                                        <i class="devicons devicons-css3"></i></a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a data-delay='{ "hide":"1000"}' data-placement="top" data-toggle="tooltip" title="Javascript">
-                                        <i class="devicons devicons-javascript"></i></a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a data-delay='{ "hide":"1000"}' data-placement="top" data-toggle="tooltip" title="Django">
-                                        <i class="devicons devicons-django"></i></a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a data-delay='{ "hide":"1000"}' data-placement="top" data-toggle="tooltip" title="Jquery">
-                                        <i class="devicons devicons-jquery"></i></a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a data-delay='{ "hide":"1000"}' data-placement="top" data-toggle="tooltip" title="Meteor.js">
-                                        <i class="devicons devicons-meteorfull"></i></a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a data-delay='{ "hide":"1000"}' data-placement="top" data-toggle="tooltip" title="Python">
-                                        <i class="devicons devicons-python"></i></a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a data-delay='{ "hide":"1000"}' data-placement="top" data-toggle="tooltip" title="Java">
-                                        <i class="devicons devicons-java"></i></a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a data-delay='{ "hide":"1000"}' data-placement="top" data-toggle="tooltip" title="Git">
-                                        <i class="devicons devicons-git"></i></a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a data-delay='{ "hide":"1000"}' data-placement="top" data-toggle="tooltip" title="MySQL">
-                                        <i class="devicons devicons-mysql"></i></a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a data-delay='{ "hide":"1000"}' data-placement="top" data-toggle="tooltip" title="Bootstrap">
-                                        <i class="devicons devicons-bootstrap"></i></a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a data-delay='{ "hide":"1000"}' data-placement="top" data-toggle="tooltip" title="Shell">
-                                        <i class="devicons devicons-terminal"></i></a>
-                                </li>
-                                <li class="list-inline-item">
-                                    <a data-delay='{ "hide":"1000"}' data-placement="top" data-toggle="tooltip" title="VSCode">
-                                        <i class="devicons devicons-visualstudio"></i></a>
-                                </li>
-                            </ul>
-                        </section>
+                  </li>
+                  <li class="timeline-inverted">
+                    <div class="timeline-badge">
+                      <i class="glyphicon glyphicon-check"></i>
                     </div>
-                </div>
+                    <div class="timeline-panel">
+                      <div class="timeline-heading">
+                        <a target="_blank" href="https://www.stratifi.com/"
+                          ><h4 class="timeline-title">
+                            StratiFi, San Francisco, CA
+                          </h4></a
+                        >
+                        <h6>Software Engineering Intern</h6>
+                        <p>
+                          <small class="text-muted">
+                            <i class="glyphicon glyphicon-time"></i>September
+                            2018 - December 2018</small
+                          >
+                        </p>
+                        <ul>
+                          <li>
+                            Implemented key features for the company’s core
+                            product using React.js, Redux and Django.
+                          </li>
+                          <li>
+                            Developed API Endpoints using Django and
+                            Django-Rest-Framework which enabled developer to
+                            fetch real- time data and implement relevant
+                            functionality on the front-end.
+                          </li>
+                          <li>
+                            Integrated WordPress plugin with Php and configured
+                            Amazon S3 bucket to develop pages on the website.
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="timeline-badge">
+                      <i class="glyphicon glyphicon-check"></i>
+                    </div>
+                    <div class="timeline-panel">
+                      <div class="timeline-heading">
+                        <a href="https://www.companywide.com/" target="_blank"
+                          ><h4 class="timeline-title">CompanyWide</h4></a
+                        >
+                        <h6>Software Engineering Intern</h6>
+                        <p>
+                          <small class="text-muted">
+                            <i class="glyphicon glyphicon-time"></i>May 2018 -
+                            August 2018</small
+                          >
+                        </p>
+                        <ul>
+                          <li>
+                            Developed a Node application which talks with the
+                            user via SMS using Twilio API and enables them to
+                            apply for jobs just by sending text message; this
+                            resulted in 200% increase in applications in one
+                            month.
+                          </li>
+                          <li>
+                            Created REST API for the database which provides an
+                            endpoint for the external application like IOS and
+                            Android to communicate with.
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="timeline-inverted">
+                    <div class="timeline-badge">
+                      <i class="glyphicon glyphicon-check"></i>
+                    </div>
+                    <div class="timeline-panel">
+                      <div class="timeline-heading">
+                        <a href="https://www.northeastern.edu/" target="_blank"
+                          ><h4 class="timeline-title">
+                            Northeastern University
+                          </h4></a
+                        >
+                        <h6>
+                          Master of Science in Computer and Information Science
+                        </h6>
+                        <p>
+                          <small class="text-muted">
+                            <i class="glyphicon glyphicon-time"></i>September
+                            2017 - December 2019</small
+                          >
+                        </p>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="timeline-badge">
+                      <i class="glyphicon glyphicon-check"></i>
+                    </div>
+                    <div class="timeline-panel">
+                      <div class="timeline-heading">
+                        <a
+                          href="https://research.samsung.com/sri-n"
+                          target="_blank"
+                          ><h4 class="timeline-title">
+                            Samsung Research Institute
+                          </h4></a
+                        >
+                        <h6>Software Engineer Intern</h6>
+                        <p>
+                          <small class="text-muted">
+                            <i class="glyphicon glyphicon-time"></i>January 2017
+                            - May 2017</small
+                          >
+                        </p>
+                        <ul>
+                          <li>
+                            Researched an idea for Alarm Application which
+                            modified alarm time based on dynamic factors like
+                            traffic, weather and IOT devices linked with it,
+                            patent pending for the same.
+                          </li>
+                          <li>
+                            Implemented an Android Application which served as a
+                            Proof of Concept for the above idea; using Android
+                            Studio as I.D.E and Git as a version control tool.
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="timeline-inverted">
+                    <div class="timeline-badge">
+                      <i class="glyphicon glyphicon-check"></i>
+                    </div>
+                    <div class="timeline-panel">
+                      <div class="timeline-heading">
+                        <a
+                          href="http://www.aristatechnologies.com/"
+                          target="_blank"
+                          ><h4 class="timeline-title">
+                            Arista Technologies
+                          </h4></a
+                        >
+                        <h6>Summer Intern</h6>
+                        <p>
+                          <small class="text-muted">
+                            <i class="glyphicon glyphicon-time"></i>May 2016 -
+                            June 2016</small
+                          >
+                        </p>
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="timeline-badge">
+                      <i class="glyphicon glyphicon-check"></i>
+                    </div>
+                    <div class="timeline-panel">
+                      <div class="timeline-heading">
+                        <a
+                          href="http://www.nirmauni.ac.in/ITNU"
+                          target="_blank"
+                        >
+                          <h4 class="timeline-title">Nirma University</h4></a
+                        >
+                        <h6>Bachelor of Technology in Computer Engineering</h6>
+                        <p>
+                          <small class="text-muted">
+                            <i class="glyphicon glyphicon-time"></i>August 2013
+                            - May 2017</small
+                          >
+                        </p>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </section>
             </div>
-
+          </div>
+          <div class="row">
+            <div class="col-lg-12">
+              <section id="projects">
+                <hr />
+                <h1 class="text-primary" align="center">Projects</h1>
+                <br />
+                <div class="container">
+                  <div class="card-deck">
+                    <div class="card">
+                      <div class="card-body">
+                        <img
+                          src="./img/alarm-clock.png"
+                          class="img-fluid"
+                          alt="Samsung logo"
+                        />
+                        <h3 class="card-title mt-3 text-primary">
+                          Smart Alarm
+                        </h3>
+                        <h5 class="card-subtitle">
+                          Samsung Research Institute
+                        </h5>
+                        <p class="text-muted mt-1">
+                          A Smart Alarm which helps a user decide when to wake
+                          up based on various factors like traffic, weather, and
+                          various IOT devices.
+                        </p>
+                        <a
+                          href="https://drive.google.com/file/d/0Bw5XNyvokXnQM0VVNlRyVlp4anZrZEhQa1VkdjVkTUZXTTg0/view?usp=sharing"
+                          target="_blank"
+                          class="btn btn-primary mt-4"
+                          role="button"
+                          >Link</a
+                        >
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="card-body">
+                        <img
+                          src="./img/secure.png"
+                          class="img-fluid"
+                          alt="Samsung logo"
+                        />
+                        <h3 class="card-title mt-3 text-primary">
+                          Secure Chat App
+                        </h3>
+                        <h5 class="card-subtitle">Northeastern University</h5>
+                        <p class="text-muted mt-1">
+                          A Python based chat application which provides
+                          Confidentiality, Integrity, and Authenticity using
+                          custom designed protocols. The protocols are inspired
+                          by TLS and Kerberos.
+                        </p>
+                        <a
+                          href="https://github.com/shivam2407/SecureChat"
+                          target="_blank"
+                          class="btn btn-primary"
+                          role="button"
+                          >Link</a
+                        >
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="card-body">
+                        <img
+                          src="./img/foozam.png"
+                          class="img-fluid"
+                          alt="Samsung logo"
+                        />
+                        <h4 class="card-title mt-3 text-primary">Foozam</h4>
+                        <h5 class="card-subtitle">HackUmass 2017</h5>
+                        <p class="text-muted mt-1">
+                          A Restful web-application using Flask and Bootstrap
+                          where user uploads image of the meal and instantly
+                          gets to know the nutrition facts (e.g:iron, calcium
+                          and Calories) of meal.
+                        </p>
+                        <a
+                          href="https://github.com/shivam2407/HackUmass"
+                          target="_blank"
+                          class="btn btn-primary"
+                          role="button"
+                          >Link</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-deck mt-4">
+                    <div class="card">
+                      <div class="card-body">
+                        <img
+                          src="./img/memory.png"
+                          class="img-fluid mb-1"
+                          alt="Memory allocation"
+                        />
+                        <h3 class="card-title mt-3 text-primary">
+                          Memorry allocation
+                        </h3>
+                        <h5 class="card-subtitle">Nirma University</h5>
+                        <p class="text-muted">
+                          It simulates four different memory allocation i.e.
+                          First Fit, Best Fit, Worst Fit and Next Fit in c
+                          language. It also suggests the best algorithm among
+                          these 4 which are best for the given example.
+                        </p>
+                        <a
+                          href="https://github.com/shivam2407/Memorry-allocation-simulation"
+                          target="_blank"
+                          class="btn btn-primary"
+                          role="button"
+                          >Link</a
+                        >
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="card-body">
+                        <img
+                          src="./img/snapify.png"
+                          class="img-fluid mt-4 mb-4"
+                          alt="Snapify"
+                        />
+                        <h3 class="card-title mt-3 text-primary">Snapify</h3>
+                        <h5 class="card-subtitle">Boston Hacks 2017</h5>
+                        <p class="text-muted">
+                          Android application which categorizes photo based on
+                          content and text if any. Also sends a message to
+                          parents when application detects inappropriate
+                          content.
+                        </p>
+                        <a
+                          href="https://devpost.com/software/snapify"
+                          target="_blank"
+                          class="btn btn-primary mt-4"
+                          role="button"
+                          >Link</a
+                        >
+                      </div>
+                    </div>
+                    <div class="card">
+                      <div class="card-body">
+                        <img
+                          src="./img/download.png"
+                          class="img-fluid ml-4 mt-5 mb-3"
+                          alt="Last Minute"
+                        />
+                        <h4 class="card-title mt-3 text-primary">
+                          Last Minute
+                        </h4>
+                        <h5 class="card-subtitle">HackHolyoke 2017</h5>
+                        <p class="text-muted mb-4">
+                          Provide a constant update of your location to Alexa
+                          and records your surroundings when you click the
+                          emergency button which is sent to user's emergency
+                          contact.
+                        </p>
+                        <a
+                          href="https://devpost.com/software/last-minute"
+                          target="_blank"
+                          class="btn btn-primary mt-3"
+                          role="button"
+                          >Link</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+          <hr />
+          <div class="row skills">
+            <div class="col-lg-12">
+              <section id="skills">
+                <h1 class="text-primary">SKILLS</h1>
+                <div class="subheading mb-3">
+                  Programming Languages &amp; Tools
+                </div>
+                <ul class="list-inline list-icons skill text-primary">
+                  <li class="list-inline-item">
+                    <a
+                      data-delay='{ "hide":"1000"}'
+                      data-placement="left"
+                      data-toggle="tooltip"
+                      title="React.js and Redux"
+                    >
+                      <img class="flex" src="./img/react.svg"
+                    /></a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a
+                      data-delay='{ "hide":"1000"}'
+                      data-placement="top"
+                      data-toggle="tooltip"
+                      title="Node.js"
+                    >
+                      <i class="devicons devicons-nodejs"></i
+                    ></a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a
+                      data-delay='{ "hide":"1000"}'
+                      data-placement="top"
+                      data-toggle="tooltip"
+                      title="MongoDB"
+                    >
+                      <i class="devicons devicons-mongodb"></i
+                    ></a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a
+                      data-delay='{ "hide":"1000"}'
+                      data-placement="top"
+                      data-toggle="tooltip"
+                      title="HTML5"
+                    >
+                      <i class="devicons devicons-html5"></i
+                    ></a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a
+                      data-delay='{ "hide":"1000"}'
+                      data-placement="top"
+                      data-toggle="tooltip"
+                      title="CSS3"
+                    >
+                      <i class="devicons devicons-css3"></i
+                    ></a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a
+                      data-delay='{ "hide":"1000"}'
+                      data-placement="top"
+                      data-toggle="tooltip"
+                      title="Javascript"
+                    >
+                      <i class="devicons devicons-javascript"></i
+                    ></a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a
+                      data-delay='{ "hide":"1000"}'
+                      data-placement="top"
+                      data-toggle="tooltip"
+                      title="Django"
+                    >
+                      <i class="devicons devicons-django"></i
+                    ></a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a
+                      data-delay='{ "hide":"1000"}'
+                      data-placement="top"
+                      data-toggle="tooltip"
+                      title="Jquery"
+                    >
+                      <i class="devicons devicons-jquery"></i
+                    ></a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a
+                      data-delay='{ "hide":"1000"}'
+                      data-placement="top"
+                      data-toggle="tooltip"
+                      title="Meteor.js"
+                    >
+                      <i class="devicons devicons-meteorfull"></i
+                    ></a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a
+                      data-delay='{ "hide":"1000"}'
+                      data-placement="top"
+                      data-toggle="tooltip"
+                      title="Python"
+                    >
+                      <i class="devicons devicons-python"></i
+                    ></a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a
+                      data-delay='{ "hide":"1000"}'
+                      data-placement="top"
+                      data-toggle="tooltip"
+                      title="Java"
+                    >
+                      <i class="devicons devicons-java"></i
+                    ></a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a
+                      data-delay='{ "hide":"1000"}'
+                      data-placement="top"
+                      data-toggle="tooltip"
+                      title="Git"
+                    >
+                      <i class="devicons devicons-git"></i
+                    ></a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a
+                      data-delay='{ "hide":"1000"}'
+                      data-placement="top"
+                      data-toggle="tooltip"
+                      title="MySQL"
+                    >
+                      <i class="devicons devicons-mysql"></i
+                    ></a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a
+                      data-delay='{ "hide":"1000"}'
+                      data-placement="top"
+                      data-toggle="tooltip"
+                      title="Bootstrap"
+                    >
+                      <i class="devicons devicons-bootstrap"></i
+                    ></a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a
+                      data-delay='{ "hide":"1000"}'
+                      data-placement="top"
+                      data-toggle="tooltip"
+                      title="Shell"
+                    >
+                      <i class="devicons devicons-terminal"></i
+                    ></a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a
+                      data-delay='{ "hide":"1000"}'
+                      data-placement="top"
+                      data-toggle="tooltip"
+                      title="VSCode"
+                    >
+                      <i class="devicons devicons-visualstudio"></i
+                    ></a>
+                  </li>
+                </ul>
+              </section>
+            </div>
+          </div>
         </div>
-
+      </div>
     </div>
     <script src="./script/smooth_scrol.js"></script>
     <script src="./script/index.js"></script>
-</body>
-
+  </body>
 </html>
